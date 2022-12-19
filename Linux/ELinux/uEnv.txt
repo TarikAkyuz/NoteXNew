@@ -1,0 +1,5 @@
+loadaddr=0x82000000
+fdtaddr=0x88000000
+bootargs=console=ttyO0,115200 root=/dev/mmcblk0p2 rw
+loadfromsd=load mmc 0:2 ${loadaddr} /boot/uImage;load mmc 0:2 ${fdtaddr} /boot/am335x-boneblack.dtb
+bootcmd=run loadfromsd; bootm ${loadaddr} - ${fdtaddr}

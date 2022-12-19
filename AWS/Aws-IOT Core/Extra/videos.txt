@@ -1,0 +1,2 @@
+How to Easily and Securely Connect Devices to AWS IoT - AWS Online Tech Talks = https://www.youtube.com/watch?v=FADeK-X8DnQ
+
